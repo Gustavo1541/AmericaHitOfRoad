@@ -1,0 +1,51 @@
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;  /* Faz com que os links ocupem o espaço restante, centralizando-os */
+}
+
+.btn-outline-success:hover {
+    background-color: #ffffff;  /* Cor de fundo quando passar o mouse */
+    color: rgb(255, 0, 0);  /* Cor do texto quando passar o mouse */
+}
+
+.navbar {
+    padding-top: 0px;   /* Menor espaço no topo */
+    padding-bottom: 0px; /* Menor espaço na parte inferior */
+}
+
+
+.navbar {
+    margin-top: -15px; /* Move a navbar para cima */
+    margin-bottom: 0px; /* Move a navbar para baixo */
+}
+
+.card-title{
+    font-weight: bold;
+}
+a{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .hero {
+      min-height: 40vh;
+    }
+  }
+
+.hero {
+    min-height: 90vh;
+  }
+  
